@@ -261,7 +261,7 @@ chrome.storage.sync.get(null, function (items) {
           newNode.className = "par_deeplopener_icon";
           newNode.innerHTML =
             "<div class='deeplopener_icon' style='z-index:9999;cursor:pointer;position:absolute;left:" +
-            (e.pageX + 1) +
+            (e.pageX + 5) +
             "px;top:" +
             e.pageY +
             "px;'><img src='" +
